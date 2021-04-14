@@ -52,12 +52,14 @@ function App() {
     setGlobalState,
   ]);
 
+  console.log(window);
+
   return (
     <BrowserRouter>
       <Context.Provider value={providerValue}>
         <Switch>
-          <Route path="/json/posts" exact component={Posts} />
-          <Route path="/json/post/:id" exact component={Post} />
+          <Route path="/posts" exact component={Posts} />
+          <Route path="/post/:id" exact component={Post} />
           <Route component={NotFound} />
         </Switch>
       </Context.Provider>
