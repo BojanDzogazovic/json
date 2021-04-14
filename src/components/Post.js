@@ -11,7 +11,7 @@ export const Post = () => {
   useEffect(() => {
     setGlobalState((prevState) => ({
       ...prevState,
-      postID: window.location.pathname.split("/").pop() - 1,
+      postID: window.location.href.split("/").pop() - 1,
     }));
   }, []);
 

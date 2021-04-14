@@ -1,5 +1,5 @@
 import "./App.scss";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { HashRouter, Switch, Route } from "react-router-dom";
 import { Posts } from "./components/Posts";
 import { Post } from "./components/Post";
 import { NotFound } from "./components/NotFound";
@@ -55,7 +55,7 @@ function App() {
   console.log(window);
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Context.Provider value={providerValue}>
         <Switch>
           <Route path="/posts" exact component={Posts} />
@@ -63,7 +63,7 @@ function App() {
           <Route component={NotFound} />
         </Switch>
       </Context.Provider>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
