@@ -34,7 +34,7 @@ export const SinglePost = ({ post, link }) => {
           <Link
             target="_blank"
             key={post.id}
-            to={`/post/${post.id}`}
+            to={`json/post/${post.id}`}
             onClick={() => {
               setGlobalState((prevState) => ({
                 ...prevState,
