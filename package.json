@@ -2,7 +2,7 @@
   "name": "json",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://BojanDzogazovic.github.io/json/posts/",
+  "homepage": "https://BojanDzogazovic.github.io/json/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",
