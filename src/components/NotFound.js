@@ -13,7 +13,7 @@ export const NotFound = () => {
       <p className="no-page__message">
         404 <br /> Page not found
       </p>
-      <Link className="no-page__link" to={"json/posts"}>
+      <Link className="no-page__link" to={"/json/posts"}>
         Back to Posts
       </Link>
     </div>

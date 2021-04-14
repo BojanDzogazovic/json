@@ -56,8 +56,8 @@ function App() {
     <BrowserRouter>
       <Context.Provider value={providerValue}>
         <Switch>
-          <Route path="json/posts" exact component={Posts} />
-          <Route path="json/post/:id" exact component={Post} />
+          <Route path="/json/posts" exact component={Posts} />
+          <Route path="/json/post/:id" exact component={Post} />
           <Route component={NotFound} />
         </Switch>
       </Context.Provider>
