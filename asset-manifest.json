@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/json/static/css/main.9f25d6ed.chunk.css",
-    "main.js": "/json/static/js/main.ea5bf91b.chunk.js",
-    "main.js.map": "/json/static/js/main.ea5bf91b.chunk.js.map",
+    "main.css": "/json/static/css/main.40650ff9.chunk.css",
+    "main.js": "/json/static/js/main.efce7e2f.chunk.js",
+    "main.js.map": "/json/static/js/main.efce7e2f.chunk.js.map",
     "runtime-main.js": "/json/static/js/runtime-main.f8bd3acb.js",
     "runtime-main.js.map": "/json/static/js/runtime-main.f8bd3acb.js.map",
     "static/js/2.7edcaff2.chunk.js": "/json/static/js/2.7edcaff2.chunk.js",
     "static/js/2.7edcaff2.chunk.js.map": "/json/static/js/2.7edcaff2.chunk.js.map",
     "index.html": "/json/index.html",
-    "static/css/main.9f25d6ed.chunk.css.map": "/json/static/css/main.9f25d6ed.chunk.css.map",
+    "static/css/main.40650ff9.chunk.css.map": "/json/static/css/main.40650ff9.chunk.css.map",
     "static/js/2.7edcaff2.chunk.js.LICENSE.txt": "/json/static/js/2.7edcaff2.chunk.js.LICENSE.txt",
     "static/media/arrow-icon.bfa8cdc8.svg": "/json/static/media/arrow-icon.bfa8cdc8.svg",
-    "static/media/json-icon.80b6ed8a.svg": "/json/static/media/json-icon.80b6ed8a.svg"
+    "static/media/json-icon.4b40bc67.svg": "/json/static/media/json-icon.4b40bc67.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.f8bd3acb.js",
     "static/js/2.7edcaff2.chunk.js",
-    "static/css/main.9f25d6ed.chunk.css",
-    "static/js/main.ea5bf91b.chunk.js"
+    "static/css/main.40650ff9.chunk.css",
+    "static/js/main.efce7e2f.chunk.js"
   ]
 }
